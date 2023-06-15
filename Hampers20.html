@@ -1,0 +1,5200 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hampers</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg fixed-top border-bottom"
+      style="background-color: var(--bs-body-bg)"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><span class="">Izanagi</span> Hampers</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#jenis">Jenis</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#bentuk">Bentuk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#produk">Produk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kontak">Kontak</a>
+            </li>
+            <li class="nav-item dropdown">
+              <button
+                class="btn nav-link dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i
+                  class="bi bi-sun-fill theme-icon-active"
+                  data-theme-icon-active="bi-sun-fill"
+                ></i>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li>
+                  <button
+                    class="dropdown-item d-flex align-items-center"
+                    type="button"
+                    data-bs-theme-value="light"
+                  >
+                    <i
+                      class="bi bi-sun-fill me-2 opacity-50"
+                      data-theme-icon="bi-sun-fill"
+                    ></i>
+                    Light
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="dropdown-item d-flex align-items-center"
+                    type="button"
+                    data-bs-theme-value="dark"
+                  >
+                    <i
+                      class="bi bi-moon-fill me-2 opacity-50"
+                      data-theme-icon="bi-moon-fill"
+                    ></i>
+                    Dark
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="dropdown-item d-flex align-items-center"
+                    type="button"
+                    data-bs-theme-value="auto"
+                  >
+                    <i
+                      class="bi bi-circle-half me-2 opacity-50"
+                      data-theme-icon="bi-circle-half"
+                    ></i>
+                    Auto
+                  </button>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar End -->
+
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/slide11.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption">
+            <h5>Eksklusif</h5>
+            <p>
+              Selamat Datang di Dunia Hadiah yang Menggoda <br />Temukan
+              Kebahagiaan dalam Setiap Bungkusan
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/slide2 (1).jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption">
+            <h5>Melimpah</h5>
+            <p>
+              Hadiah yang Mencerminkan Keanggunan <br />Berikan Kesenangan
+              dengan Himpunan Kenikmatan
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/slide3.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption">
+            <h5>Terjamin Kualitas</h5>
+            <p>
+              Kreasikan Kenangan dengan Kemasan yang Indah
+              <br />Hadiah yang Mencerminkan Perhatian dan Kasih Sayang
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- About -->
+
+    <section id="about" class="about section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-12">
+            <div class="about-img">
+              <img src="img/about.jpg" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+            <div class="about-text">
+              <h2>Tentang kami</h2>
+              <p>
+                Sebuah perayaan tak akan lengkap tanpa sebuah hadiah yang
+                berkesan. Website Izanagi Hampers hadir untuk memberikan Anda
+                kemudahan dan kenyamanan dalam memilih Hampers yang sesuai
+                dengan harapan Anda. Dengan website ini Anda bisa memilih
+                Hampers kapanpun dan dimanapun tanpa harus berkunjung langsung
+                ke toko kami.
+              </p>
+              <p>
+                Izanagi Hampers menyediakan pelayanan terbaik untuk memastikan
+                Anda menemukan kesan terbaik dalam pemilihan Hampers. Kami
+                mengajak Anda untuk berpartisipasi dalam menyusun hampers impian
+                Anda untuk memberikan hadiah dengan kesan terbaik di momen yang
+                tak terlupakan
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About end -->
+
+    <!-- Jenis -->
+
+    <section id="jenis" class="jenis section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header text-center pb-3">
+              <h2>Jenis</h2>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card" style="background-color: var(--bs-body-bg)">
+              <img
+                src="img/flower1.jpg"
+                class="card-img-top"
+                alt="Gambar 1"
+                style="padding: 10px"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Flower</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="background-color: var(--bs-body-bg)">
+              <img
+                src="img/boneka1.jpg"
+                class="card-img-top"
+                alt="Gambar 2"
+                style="padding: 10px"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Boneka</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="background-color: var(--bs-body-bg)">
+              <img
+                src="img/money1.jpg"
+                class="card-img-top"
+                alt="Gambar 3"
+                style="padding: 10px"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Uang</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="background-color: var(--bs-body-bg)">
+              <img
+                src="img/snack1.jpg"
+                class="card-img-top rounded-image"
+                alt="Gambar 4"
+                style="padding: 10px"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Snack</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Jenis End -->
+
+    <!-- Bentuk -->
+    <section id="bentuk" class="bentuk section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header text-center pb-5">
+              <h2>Bentuk</h2>
+              <p></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-4">
+            <div
+              class="card text-center pb-2 shadow"
+              style="background-color: var(--bs-body-bg)"
+            >
+              <div class="card-body">
+                <i class="bi bi-box"></i>
+                <h3 class="card-title">Kotak</h3>
+                <p class="lead"></p>
+                <p>
+                  Hampers dengan bentuk kotak akan memberikan kesan simple dan
+                  menarik pada Hampers Anda. Sangat pas dikirimkan untuk orang
+                  yang istimewa.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-12 col-lg-4">
+            <div
+              class="card text-center pb-2"
+              style="background-color: var(--bs-body-bg)"
+            >
+              <div class="card-body">
+                <i class="bi bi-basket"></i>
+                <h3 class="card-title">Keranjang</h3>
+                <p class="lead"></p>
+                <p>
+                  Hampers dengan bentuk keranjang akan memberikan kesan elegan
+                  dan klasik pada Hampers Anda. Sangat pas dikirimkan untuk
+                  orang yang berharga.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-12 col-lg-4">
+            <div
+              class="card text-center pb-2"
+              style="background-color: var(--bs-body-bg)"
+            >
+              <div class="card-body">
+                <i class="bi bi-bucket"></i>
+                <h3 class="card-title">Buket</h3>
+                <p class="lead"></p>
+                <p>
+                  Hampers dengan bentuk buket bunga akan memberikan kesan
+                  estetik dan indah. Buket yang Sangat pas dikirimkan untuk
+                  orang yang spesial.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bentuk End -->
+
+    <!-- Produk -->
+
+    <section class="portfolio section-padding" id="produk">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header text-center pb-5">
+              <h2>Produk</h2>
+
+              <!-- Filter -->
+
+              <div class="container">
+                <ul class="nav nav-pills justify-content-center">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#produk" data-filter="all"
+                      >Semua</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#produk" data-filter="kotak"
+                      >Kotak</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#produk" data-filter="keranjang"
+                      >Keranjang</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#produk" data-filter="buket"
+                      >Buket</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#produk" data-filter="custom">
+                      <i class="bi bi-gear-fill"></i> Custom</a
+                    >
+                  </li>
+                </ul>
+
+                <!-- Filter End -->
+
+                <div class="portfolio-items mt-4">
+                  <div class="row">
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item keranjang">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Bentuk keranjang 1.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Hampers Skin Care</h5>
+                          <p class="lead"></p>
+                          <button
+                            class="btn bg-warning text-dark"
+                            data-bs-toggle="modal"
+                            data-bs-target="#myModal"
+                          >
+                            Informasi
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item keranjang">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Bentuk keranjang 2.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Hampers Keranjang Stroller</h5>
+                          <p class="lead"></p>
+                          <button
+                            class="btn bg-warning text-dark"
+                            data-bs-toggle="modal"
+                            data-bs-target="#myModal2"
+                          >
+                            Informasi
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item keranjang">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Bentuk keranjang 3.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Hampers Keranjang Mini</h5>
+                          <p class="lead"></p>
+                          <button
+                            class="btn bg-warning text-dark"
+                            data-bs-toggle="modal"
+                            data-bs-target="#myModal3"
+                          >
+                            Informasi
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item keranjang">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Bentuk keranjang 4.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">
+                            Hampers Keranjang seserahan
+                          </h5>
+                          <p class="lead"></p>
+                          <button
+                            class="btn bg-warning text-dark"
+                            data-bs-toggle="modal"
+                            data-bs-target="#myModal4"
+                          >
+                            Informasi
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item keranjang">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Bentuk keranjang 5.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Hampers Keranjang Pink</h5>
+                          <p class="lead"></p>
+                          <button
+                            class="btn bg-warning text-dark"
+                            data-bs-toggle="modal"
+                            data-bs-target="#myModal5"
+                          >
+                            Informasi
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item kotak">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Bentuk kotak 1.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Hampers Kotak Kue</h5>
+                          <p class="lead"></p>
+                          <button
+                            class="btn bg-warning text-dark"
+                            data-bs-toggle="modal"
+                            data-bs-target="#myModal6"
+                          >
+                            Informasi
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item kotak">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Bentuk kotak 2.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Hampers Kotak + Emas</h5>
+                          <p class="lead"></p>
+                          <button
+                            class="btn bg-warning text-dark"
+                            data-bs-toggle="modal"
+                            data-bs-target="#myModal7"
+                          >
+                            Informasi
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item kotak">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Bentuk kotak 3.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Hampers Kotak Kado</h5>
+                          <p class="lead"></p>
+                          <button
+                            class="btn bg-warning text-dark"
+                            data-bs-toggle="modal"
+                            data-bs-target="#myModal8"
+                          >
+                            Informasi
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item kotak">
+                      <div
+                        class="card text-center bg pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Bentuk kotak 4.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Hampers Kotak lebaran</h5>
+                          <p class="lead"></p>
+                          <button
+                            class="btn bg-warning text-dark"
+                            data-bs-toggle="modal"
+                            data-bs-target="#myModal9"
+                          >
+                            Informasi
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item kotak">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Bentuk kotak 5.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Hampers Kotak Parsel</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal10"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item buket">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Bentuk buket bunga 1.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Bucket Bunga Uang 10K</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal11"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item buket">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Bentuk buket bunga 2.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Buket Bunga Snack</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal12"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item buket">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Bentuk buket bunga 3.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Buket Bunga Balon</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal13"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item buket">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Bentuk buket bunga 4.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Buket Bunga Mini</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal14"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item buket">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Bentuk buket bunga 5.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Buket Bunga Wisuda</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal15"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item kotak">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Hampers nuansa hijau 1.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">
+                            Hampers Kotak Tema Idul Fitri
+                          </h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal16"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item kotak">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Hampers nuansa hijau 2.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Hampers Kotak Hijau + Emas</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal17"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item buket">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Hampers nuansa hijau 3.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Buket Bunga + Tas</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal18"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item kotak">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Hampers nuansa biru 1.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Kotak Perlengkapan Anak</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal19"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item keranjang">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Hampers nuansa biru 2.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">
+                            Keranjang Perlengkapan Anak
+                          </h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal20"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item buket">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Hampers nuansa biru 3.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Buket Bunga Uang 50K</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal21"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item kotak">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Hampers nuansa merah 1.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Hampers Kotak Snack Merah</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal22"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item kotak">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Hampers nuansa merah 2.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Hampers Kotak Parsel Merah</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal23"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item buket">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/hampers nuansa merah 3.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Buket Bunga Merah</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal24"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item kotak">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/hampers nuansa pink 1.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Hampers Kotak Kado</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal25"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item kotak">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/hampers nuansa pink 2.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Hampers Kotak + Emas</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal26"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item buket">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/hampers nuansa pink 3.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Buket Bunga Pink</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal27"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item kotak">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/hampers nuansa ungu 1.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Hampers Kotak Parsel Ungu</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal28"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item kotak">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/hampers nuansa ungu 2.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Hampers Kotak Kado Ungu</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal29"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item buket">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/hampers nuansa ungu 3.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Buket Bunga Mini</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal30"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item buket">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/hampers nuansa warna campuran 1.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Bucket Bunga Uang 5K & 10K</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal31"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item buket">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/hampers nuansa warna campuran 2.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">
+                            Bucket Bunga Mini Colourful
+                          </h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal32"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item keranjang">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/hampers nuansa warna campuran 3.jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Bucket Keranjang Minuman</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal33"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item buket">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/bunga (Kode 321).jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Buket Bunga Mini</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal34"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item buket">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Uang (Kode 322).jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Buket Bunga Uang 100K</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal35"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item kotak">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Snack (Kode 323).jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Hampers Kotak Snack</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal36"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item keranjang">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Kue kering (Kode 324).jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Hampers Kue Kering</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal37"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item buket">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Hijab (Kode 325).jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Buket Bunga Hijab</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal38"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item kotak">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Peralatan keagamaan (Kode 326).jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Hampers Perlengkapan Anak</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal39"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item keranjang">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Peralatan anak (Kode 327).jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">
+                            Hampers Pink Peralatan Anak
+                          </h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal40"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item kotak">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Skin care (Kode 328).jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">
+                            Hampers Kotak Skincare Ungu
+                          </h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal41"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item buket">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Tas (Kode 329).jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Buket Bunga Tas</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal42"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item buket">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Photo card (Kode 311).jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Buket Bunga Photo Card</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal43"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item buket">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Boneka (Kode 312).jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Buket Boneka + Snack</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal44"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item emas">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Emas (Kode 313).jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Hampers Emas + Boneka</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal45"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item keranjang">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Hiasan keramik (Kode 314).jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Hampers Keranjang Keramik</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal46"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item kotak">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/mug ( Kode 316).jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Hampers Kotak Tema Lebaran</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal47"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mt-4 item kotak">
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Tumbler (Kode 317).jpeg.jpg"
+                            />
+                          </div>
+                          <h5 class="card-title">Hampers Kotak Kado Ungu</h5>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal48"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="col-12 col-md-12 col-lg-4 mt-4 item kotak custom"
+                      style="display: none"
+                    >
+                      <div
+                        class="card text-center pb-2"
+                        style="background-color: var(--bs-body-bg)"
+                      >
+                        <div class="card-body">
+                          <div class="img-area mb-4">
+                            <img
+                              alt=""
+                              class="card-img-top img-fluid"
+                              src="img/Produk/Screenshot 2023-06-15 044436.png"
+                            />
+                          </div>
+                          <h1 class="bi bi-gear-fill mb-3"></h1>
+                          <p class="lead">
+                            <button
+                              class="btn bg-warning text-dark"
+                              data-bs-toggle="modal"
+                              data-bs-target="#myModal49"
+                            >
+                              Informasi
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Produk End -->
+
+    <!-- Modal Box -->
+
+    <div
+      class="modal fade"
+      id="myModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">200.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Bentuk keranjang 1.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Hampers Skin Care</h5>
+                    <p>
+                      Hampers bentuk keranjang ukuran besar dengan model
+                      keranjang piknik dan isian berbagai produk skin care
+                    </p>
+                    <h5>Kode : 123</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVUOEVDN1ZJNFlRODVHRDZRNUhWU0JNMzlRNi4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal2"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">200.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Bentuk keranjang 2.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Stroller Peralatan Bayi</h5>
+                    <p>
+                      Hampers bentuk keranjang ukuran besar dengan model
+                      stroller bayi dan isian berbagai produk peralatan bayi
+                    </p>
+                    <h5>Kode : 123</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVUOEVDN1ZJNFlRODVHRDZRNUhWU0JNMzlRNi4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal3"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">100.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Bentuk keranjang 3.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Hampers Keranjang Mini</h5>
+                    <p>
+                      Hampers bentuk keranjang ukuran sedang dengan model
+                      keranjang kotak dan isian 2 toples kue kering
+                    </p>
+                    <h5>Kode : 123</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVUOEVDN1ZJNFlRODVHRDZRNUhWU0JNMzlRNi4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal4"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">150.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Bentuk keranjang 4.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Hampers Keranjang Seserahan</h5>
+                    <p>
+                      Hampers bentuk keranjang ukuran sedang dengan model
+                      keranjang dengan balutan penutup rotan dan isian berbagai
+                      produk skin care
+                    </p>
+                    <h5>Kode : 123</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVUOEVDN1ZJNFlRODVHRDZRNUhWU0JNMzlRNi4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="myModal5"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">150.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Bentuk keranjang 5.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Hampers Keranjang Pink</h5>
+                    <p>
+                      Hampers bentuk keranjang ukuran besar dengan model
+                      keranjang dengan balutan penutup kain renda dan isian
+                      berbagai peralatan anak.
+                    </p>
+                    <h5>Kode : 123</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVUOEVDN1ZJNFlRODVHRDZRNUhWU0JNMzlRNi4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal6"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">150.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Bentuk kotak 1.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Hampers Kotak Kue</h5>
+                    <p>
+                      Hampers bentuk kotak ukuran sedang dengan isian kue kering
+                    </p>
+                    <h5>Kode : 124</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVUNEVWT1I5WDFVU0hCSlpBVUQ4T0NUM1EwVC4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal7"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">6.000.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Bentuk kotak 2.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Hampers Kotak + Emas</h5>
+                    <p>
+                      Hampers bentuk kotak ukuran sedang dengan isian emas 5
+                      gram dan bunga kecil
+                    </p>
+                    <h5>Kode : 124</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVUNEVWT1I5WDFVU0hCSlpBVUQ4T0NUM1EwVC4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal8"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">120.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Bentuk kotak 3.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Hampers Kotak Kado</h5>
+                    <p>
+                      Hampers bentuk kotak ukuran sedang dengan isian boneka
+                      ukuran sedang dan berbagai macam snack
+                    </p>
+                    <h5>Kode : 124</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVUNEVWT1I5WDFVU0hCSlpBVUQ4T0NUM1EwVC4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal9"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">150.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Bentuk kotak 4.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Hampers Kotak Tema Lebaran</h5>
+                    <p>
+                      Hampers bentuk kotak ukuran sedang dengan isian kain dan
+                      kue kering
+                    </p>
+                    <h5>Kode : 124</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVUNEVWT1I5WDFVU0hCSlpBVUQ4T0NUM1EwVC4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal10"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">120.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Bentuk kotak 5.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Hampers Kotak Parsel</h5>
+                    <p>
+                      Hampers bentuk kotak ukuran besar dengan isian berbagai
+                      macam snack
+                    </p>
+                    <h5>Kode : 124</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVUNEVWT1I5WDFVU0hCSlpBVUQ4T0NUM1EwVC4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal11"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">150.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Bentuk buket bunga 1.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Buket Bunga Uang 10.000</h5>
+                    <p>
+                      Hampers bentuk buket bunga ukuran sedang dengan isian 10
+                      lembar uang pecahan Rp.10.000
+                    </p>
+                    <h5>Kode : 125</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVURVJOVzRUMzlOTUFHUTE4Tzk4NDM4TVJWMi4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal12"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">100.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Bentuk buket bunga 2.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Buket Bunga Snack</h5>
+                    <p>
+                      Hampers bentuk buket bunga ukuran sedang dengan isian
+                      beberapa snack
+                    </p>
+                    <h5>Kode : 125</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVURVJOVzRUMzlOTUFHUTE4Tzk4NDM4TVJWMi4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal13"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">35.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Bentuk buket bunga 3.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Buket Bunga Balon</h5>
+                    <p>Balon yang dirakit menyerupai buket bunga</p>
+                    <h5>Kode : 125</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVURVJOVzRUMzlOTUFHUTE4Tzk4NDM4TVJWMi4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal14"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">100.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Bentuk buket bunga 4.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Buket Bunga Mini</h5>
+                    <p>
+                      Hampers bentuk buket bunga ukuran sedang dengan isian
+                      rangkaian bunga
+                    </p>
+                    <h5>Kode : 125</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVURVJOVzRUMzlOTUFHUTE4Tzk4NDM4TVJWMi4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal15"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">75.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Bentuk buket bunga 5.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Buket Bunga Tema wisuda</h5>
+                    <p>
+                      Hampers bentuk buket bunga ukuran sedang dengan isian 3
+                      boneka ukuran kecil
+                    </p>
+                    <h5>Kode : 125</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVURVJOVzRUMzlOTUFHUTE4Tzk4NDM4TVJWMi4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal16"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">150.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Hampers nuansa hijau 1.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Hampers Kotak Tema Idul Fitri</h5>
+                    <p>
+                      Hampers nuansa warna hijau dengan bentuk kotak dan isian
+                      sajadah serta mug
+                    </p>
+                    <h5>Kode : 223</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVURENRRklSRFdDNVY2MFRCM0tZMFNRVktUMS4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal17"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">6.000.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Hampers nuansa hijau 2.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Hampers Kotak Hijau + Emas</h5>
+                    <p>
+                      Hampers nuansa warna hijau dengan bentuk kotak dan isian
+                      emas 5 gram serta hiasan bunga ukuran kecil
+                    </p>
+                    <h5>Kode : 223</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVURENRRklSRFdDNVY2MFRCM0tZMFNRVktUMS4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal18"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">250.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Hampers nuansa hijau 3.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Buket Bunga + Tas</h5>
+                    <p>
+                      Hampers nuansa warna hijau dengan bentuk buket bunga dan
+                      isian tas minimalis
+                    </p>
+                    <h5>Kode : 223</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVURENRRklSRFdDNVY2MFRCM0tZMFNRVktUMS4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal19"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">200.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Hampers nuansa biru 1.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Hampers Kotak Set Perlengkapan Anak</h5>
+                    <p>
+                      Hampers nuansa warna biru dengan bentuk kotak dan isian
+                      berbagai macam peralatan anak
+                    </p>
+                    <h5>Kode : 223</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVUQkNST0lNWFZKUTQxU0ZCSVk2UU1TTFg0Ni4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal20"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">200.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Hampers nuansa biru 2.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Hampers Keranjang Set Perlengkapan Anak</h5>
+                    <p>
+                      Hampers nuansa warna biru dengan bentuk keranjang dan
+                      isian berbagai macam peralatan anak
+                    </p>
+                    <h5>Kode : 223</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVUQkNST0lNWFZKUTQxU0ZCSVk2UU1TTFg0Ni4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal21"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">1.150.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Hampers nuansa biru 3.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Buket Bunga Uang 50.000</h5>
+                    <p>
+                      Hampers nuansa warna biru dengan bentuk buket bunga dan
+                      isian 22 lembar uang pecahan Rp.50.000
+                    </p>
+                    <h5>Kode : 223</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVUQkNST0lNWFZKUTQxU0ZCSVk2UU1TTFg0Ni4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal22"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">65.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Hampers nuansa merah 1.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Hampers Kotak Snack Merah</h5>
+                    <p>
+                      Hampers nuansa warna merah dengan bentuk kotak ukuran
+                      sedang dan isian berbagai macam snack
+                    </p>
+                    <h5>Kode : 223</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVUMk1aOTlPQjlEREo3UUVHVFBBSURQN05MRS4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal23"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">200.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Hampers nuansa merah 2.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Hampers Kotak Parsel Merah</h5>
+                    <p>
+                      Hampers nuansa warna merah dengan bentuk kotak ukuran
+                      besar dan isian berbagai macam snack
+                    </p>
+                    <h5>Kode : 223</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVUMk1aOTlPQjlEREo3UUVHVFBBSURQN05MRS4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal24"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">125.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/hampers nuansa merah 3.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Buket Bunga Merah</h5>
+                    <p>
+                      Hampers nuansa warna merah dengan bentuk buket bunga
+                      ukuran besar dan isian rangkaian bunga
+                    </p>
+                    <h5>Kode : 223</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVUMk1aOTlPQjlEREo3UUVHVFBBSURQN05MRS4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal25"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">120.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/hampers nuansa pink 1.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Hampers Kotak Kado</h5>
+                    <p>
+                      Hampers nuansa warna pink dengan bentuk kotak ukuran
+                      sedang dan isian boneka serta beberapa snack.
+                    </p>
+                    <h5>Kode : 223</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVURTgwQzREOUlNNUUxMFFYUlVGUVBENFI2Vi4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal26"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">6.100.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/hampers nuansa pink 2.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Hampers Kotak + Emas</h5>
+                    <p>
+                      Hampers nuansa warna pink dengan bentuk kotak ukuran
+                      sedang dan isian emas 5 gram serta boneka
+                    </p>
+                    <h5>Kode : 223</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVURTgwQzREOUlNNUUxMFFYUlVGUVBENFI2Vi4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal27"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+
+            <h5 class="modal-title" id="myModalLabel">125.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/hampers nuansa pink 3.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Buket Bunga Pink</h5>
+                    <p>
+                      Hampers nuansa warna pink dengan bentuk buket bunga ukuran
+                      besar dan isian rangkaian bunga
+                    </p>
+                    <h5>Kode : 223</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVURTgwQzREOUlNNUUxMFFYUlVGUVBENFI2Vi4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal28"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">120.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/hampers nuansa ungu 1.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Hampers Kotak Parsel Ungu</h5>
+                    <p>
+                      Hampers nuansa warna ungu dengan bentuk kotak ukuran besar
+                      dan isian berbagai macam snack
+                    </p>
+                    <h5>Kode : 223</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVUOUIwWU5NNlZUVjY5R0VJRzJXQ0FaWFpDOC4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal29"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">170.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/hampers nuansa ungu 2.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Hampers Kotak Kado Ungu</h5>
+                    <p>
+                      Hampers nuansa warna ungu dengan bentuk kotak ukuran
+                      sedang dan isian kain, tumbler, boneka serta cokelat.
+                    </p>
+                    <h5>Kode : 223</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVUOUIwWU5NNlZUVjY5R0VJRzJXQ0FaWFpDOC4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal30"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">80.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/hampers nuansa ungu 3.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Buket Bunga Mini</h5>
+                    <p>
+                      Hampers nuansa warna ungu dengan bentuk buket bunga ukuran
+                      sedang dan isian rangkaian bunga.
+                    </p>
+                    <h5>Kode : 223</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVUOUIwWU5NNlZUVjY5R0VJRzJXQ0FaWFpDOC4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal31"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">230.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/hampers nuansa warna campuran 1.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Buket Bunga Uang 5.000 dan 10.000</h5>
+                    <p>
+                      Hampers nuansa warna campuran dengan bentuk buket bunga
+                      ukuran sedang dan isian 10 lembar uang pecahan Rp.10.000
+                      serta 20 lembar uang pecahan Rp.5.000
+                    </p>
+                    <h5>Kode : 223</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVUMjFFME1LRUtVODczVVhaNTAxM0pFQllMRS4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal32"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">120.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/hampers nuansa warna campuran 2.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Buket Bunga Mini Colourful</h5>
+                    <p>
+                      Hampers nuansa warna campuran dengan bentuk buket bunga
+                      ukuran sedang dan isian rangkaian bunga.
+                    </p>
+                    <h5>Kode : 223</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVUMjFFME1LRUtVODczVVhaNTAxM0pFQllMRS4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal33"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">130.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/hampers nuansa warna campuran 3.jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Hampers Keranjang Minuman Kaleng</h5>
+                    <p>
+                      Hampers nuansa warna campuran dengan bentuk keranjang
+                      ukuran besar dan isian berbagai macam snack
+                    </p>
+                    <h5>Kode : 223</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVUMjFFME1LRUtVODczVVhaNTAxM0pFQllMRS4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal34"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">130.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/bunga (Kode 321).jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Buket bunga Mini</h5>
+                    <p>Hampers buket bunga dengan isian bunga mawa</p>
+                    <h5>Kode : 321</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              class="btn btn-warning"
+              id="beliSekarangButton"
+            >
+              <a
+                href="your_link_here"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal35"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">2.050.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Uang (Kode 322).jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Buket Bunga Uang 100.000</h5>
+                    <p>
+                      Hampers buket bunga dengan isian uang tunai sejumlah Rp.
+                      2.000.000
+                    </p>
+                    <h5>Kode : 322</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              class="btn btn-warning"
+              id="beliSekarangButton"
+            >
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVURU9FVVVXT1hNVjcyVUowVzlYOVpHNkRaMy4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal36"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">65.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Snack (Kode 323).jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Hampers Kotak Snack</h5>
+                    <p>Hampers bentuk kotak dengan isian bermacam snack</p>
+                    <h5>Kode : 323</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              class="btn btn-warning"
+              id="beliSekarangButton"
+            >
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVURU9FVVVXT1hNVjcyVUowVzlYOVpHNkRaMy4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal37"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">200.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Kue kering (Kode 324).jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Hampers Keranjang Kue Kering</h5>
+                    <p>
+                      Hampers bentuk keranjang dengan isian 4 toples kue kering
+                    </p>
+                    <h5>Kode : 324</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              class="btn btn-warning"
+              id="beliSekarangButton"
+            >
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVURU9FVVVXT1hNVjcyVUowVzlYOVpHNkRaMy4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal38"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">100.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Hijab (Kode 325).jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Buket Bunga Hijab</h5>
+                    <p>Hampers bentuk buket bunga dengan isian hijab pasmina</p>
+                    <h5>Kode : 325</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              class="btn btn-warning"
+              id="beliSekarangButton"
+            >
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVURU9FVVVXT1hNVjcyVUowVzlYOVpHNkRaMy4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal39"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">250.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Peralatan keagamaan (Kode 326).jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Hampers Kotak Perlengkapan Keagamaan</h5>
+                    <p>
+                      Hampers bentuk kotak dengan isian mukenah, Al-Qur'an,
+                      sajadah, dan tasbih.
+                    </p>
+                    <h5>Kode : 326</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              class="btn btn-warning"
+              id="beliSekarangButton"
+            >
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVURU9FVVVXT1hNVjcyVUowVzlYOVpHNkRaMy4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal40"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">350.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Peralatan anak (Kode 327).jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Hampers Keranjang Pink Peralatan Anak</h5>
+                    <p>
+                      Hampers bentuk keranjang dengan isian baju, selimut anak,
+                      kaos kaki, aksesoris dan satu set perawatan kulit anak
+                    </p>
+                    <h5>Kode : 327</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              class="btn btn-warning"
+              id="beliSekarangButton"
+            >
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVURU9FVVVXT1hNVjcyVUowVzlYOVpHNkRaMy4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal41"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">120.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Skin care (Kode 328).jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Hampers Kotak Skin Care Ungu</h5>
+                    <p>
+                      Hampers bentuk kotak dengan isian masker wajah, kuas,
+                      facial wash, dan penutup mata.
+                    </p>
+                    <h5>Kode : 328</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              class="btn btn-warning"
+              id="beliSekarangButton"
+            >
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVURU9FVVVXT1hNVjcyVUowVzlYOVpHNkRaMy4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal42"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">250.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Tas (Kode 329).jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Buket Bunga Tas</h5>
+                    <p>Hampers bentuk buket bunga dengan isian tas minimalis</p>
+                    <h5>Kode : 328</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              class="btn btn-warning"
+              id="beliSekarangButton"
+            >
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVURU9FVVVXT1hNVjcyVUowVzlYOVpHNkRaMy4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal43"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">70.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Photo card (Kode 311).jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Buket Bunga Photo Card</h5>
+                    <p>
+                      Hampers bentuk buket bunga dengan isian photo card dan
+                      boneka kecil
+                    </p>
+                    <h5>Kode : 311</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              class="btn btn-warning"
+              id="beliSekarangButton"
+            >
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVURU9FVVVXT1hNVjcyVUowVzlYOVpHNkRaMy4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal44"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">100.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Boneka (Kode 312).jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Buket Bunga Boneka + Snack</h5>
+                    <p>
+                      Hampers bentuk buket bunga dengan isian boneka ukuran
+                      sedang dan snack.
+                    </p>
+                    <h5>Kode : 312</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              class="btn btn-warning"
+              id="beliSekarangButton"
+            >
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVURU9FVVVXT1hNVjcyVUowVzlYOVpHNkRaMy4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal45"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">6.100.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Emas (Kode 313).jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Hampers Kotak Emas + Boneka</h5>
+                    <p>
+                      Hampers bentuk kotak dengan isian emas 5 gram dan boneka
+                      serta bunga ukuran kecil
+                    </p>
+                    <h5>Kode : 313</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              class="btn btn-warning"
+              id="beliSekarangButton"
+            >
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVURU9FVVVXT1hNVjcyVUowVzlYOVpHNkRaMy4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal46"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">1.000.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Hiasan keramik (Kode 314).jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Hampers Keranjang Keramik</h5>
+                    <p>
+                      Hampers bentuk keranjang dengan isian keramik bentuk guci
+                      kecil, miniatur sepasang merpati dan figura foto
+                    </p>
+                    <h5>Kode : 314</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              class="btn btn-warning"
+              id="beliSekarangButton"
+            >
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVURU9FVVVXT1hNVjcyVUowVzlYOVpHNkRaMy4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal47"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">150.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/mug ( Kode 316).jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Hampers Kotak Tema Idul Fitri</h5>
+                    <p>
+                      Hampers nuansa warna hijau dengan bentuk kotak dan isian
+                      sajadah serta mug.
+                    </p>
+                    <h5>Kode : 316</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              class="btn btn-warning"
+              id="beliSekarangButton"
+            >
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVURU9FVVVXT1hNVjcyVUowVzlYOVpHNkRaMy4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal48"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-tag-fill"></i>
+            <h5 class="modal-title" id="myModalLabel">170.000</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Tumbler (Kode 317).jpeg.jpg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Kotak Kado Ungu</h5>
+                    <p>
+                      Hampers nuansa warna ungu dengan bentuk kotak ukuran
+                      sedang dan isian kain, tumbler, boneka serta cokelat.
+                    </p>
+                    <h5>Kode : 317</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              class="btn btn-warning"
+              id="#beliSekarangButton"
+            >
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVURU9FVVVXT1hNVjcyVUowVzlYOVpHNkRaMy4u"
+                style="text-decoration: none; color: black"
+                >Beli Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal49"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="bi bi-gear-fill"></i>
+            <h5 class="modal-title" id="myModalLabel"></h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="img/Produk/Screenshot 2023-06-15 044436.png"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Custom</h5>
+                    <p>
+                      Wujudkan Hampers impianmu dengan pembelian secara custom
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              class="btn btn-warning"
+              id="#beliSekarangButton"
+            >
+              <a
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=xF6513-aYEKy4-tT8KyEAR8-4SpLyLNLguMPZou48hVUMFgyUUJZNUtTMUdDRVRPVkowR1U0M01BSy4u"
+                style="text-decoration: none; color: black"
+                >Custom Sekarang</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div></div>
+
+    <!-- Modal Box End -->
+
+    <!-- Kontak -->
+
+    <section class="contact section-padding" id="kontak">
+      <div class="container mt-5 mb-5">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header text-center pb-5">
+              <h2>Contact Us</h2>
+            </div>
+          </div>
+
+          <form>
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Enter your name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Enter your email"
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                class="form-control"
+                id="message"
+                rows="5"
+                placeholder="Enter your message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="row m-0">
+        <div class="col-md-12 p-0 pt-4 pb-4"></div>
+      </div>
+    </section>
+
+    <!-- Kontak Ends -->
+
+    <!-- Footer -->
+
+    <footer class="" style="background-color: var(--bs-body-bg)">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div class="col-12 text-center">
+              <ul class="nav justify-content-center fs-4">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="https://instagram.com/bry.bucket_madiun?igshid=MjEwN2IyYWYwYw=="
+                    target="_blank"
+                  >
+                    <i class="bi bi-instagram"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="http://Wa.me/+6289678642534"
+                    target="_blank"
+                  >
+                    <i class="bi bi-whatsapp"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <ul class="nav justify-content-center fs-6">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#jenis">Jenis</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#bentuk">Bentuk</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link t" href="#produk">Produk</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#kontak">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row mt-2"></div>
+        <div class="row mt-2">
+          <div class="col-12">
+            <p class="text-center">Created by Izanagi. &copy; 2023.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer Ends -->
+
+    <script>
+      $(document).ready(function () {
+        $("#beliSekarangButton").click(function () {
+          window.location.href = "https://forms.office.com/r/099Vbh20AG";
+        });
+      });
+    </script>
+
+    <script>
+      (() => {
+        "use strict";
+
+        const getStoredTheme = () => localStorage.getItem("theme");
+        const setStoredTheme = (theme) => localStorage.setItem("theme", theme);
+
+        const getPreferredTheme = () => {
+          const storedTheme = getStoredTheme();
+          if (storedTheme) {
+            return storedTheme;
+          }
+
+          return window.matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light";
+        };
+
+        const setTheme = (theme) => {
+          if (
+            theme === "auto" &&
+            window.matchMedia("(prefers-color-scheme: dark)").matches
+          ) {
+            document.documentElement.setAttribute("data-bs-theme", "dark");
+          } else {
+            document.documentElement.setAttribute("data-bs-theme", theme);
+          }
+        };
+
+        setTheme(getPreferredTheme());
+
+        const showActiveTheme = (theme) => {
+          const activeThemeIcon = document.querySelector(".theme-icon-active ");
+          const btnToActive = document.querySelector(
+            `[data-bs-theme-value="${theme}"]`
+          );
+          const iconOfActiveBtn =
+            btnToActive.querySelector("i").dataset.themeIcon;
+
+          document
+            .querySelectorAll("[data-bs-theme-value]")
+            .forEach((element) => {
+              element.classList.remove("active");
+            });
+
+          btnToActive.classList.add("active");
+
+          activeThemeIcon.classList.remove(
+            activeThemeIcon.dataset.themeIconActive
+          );
+          activeThemeIcon.classList.add(iconOfActiveBtn);
+          activeThemeIcon.dataset.iconActive = iconOfActiveBtn;
+        };
+
+        window
+          .matchMedia("(prefers-color-scheme: dark)")
+          .addEventListener("change", () => {
+            const storedTheme = getStoredTheme();
+            if (storedTheme !== "light" && storedTheme !== "dark") {
+              setTheme(getPreferredTheme());
+            }
+          });
+
+        window.addEventListener("DOMContentLoaded", () => {
+          showActiveTheme(getPreferredTheme());
+
+          document
+            .querySelectorAll("[data-bs-theme-value]")
+            .forEach((toggle) => {
+              toggle.addEventListener("click", () => {
+                const theme = toggle.getAttribute("data-bs-theme-value");
+                setStoredTheme(theme);
+                setTheme(theme);
+                showActiveTheme(theme, true);
+              });
+            });
+        });
+      })();
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        let customClicked = false;
+
+        $(".nav-link").click(function () {
+          const filterValue = $(this).data("filter");
+          if (filterValue === "all") {
+            $(".portfolio-items .item.custom").hide();
+            $(".portfolio-items .item:not(.custom)").show();
+          } else {
+            $(".portfolio-items .item").hide();
+            $(`.portfolio-items .${filterValue}`).show();
+
+            if (filterValue === "custom") {
+              customClicked = true;
+            } else {
+              customClicked = false;
+            }
+          }
+          $(".nav-link").removeClass("active");
+          $(this).addClass("active");
+        });
+      });
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
